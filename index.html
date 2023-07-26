@@ -11,10 +11,18 @@
     <script src="https://cdn.tailwindcss.com"></script>
    <!-- font awesome link -->
    <script src="https://kit.fontawesome.com/d152456d44.js" crossorigin="anonymous"></script>
+  <!-- google fonts link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:wght@500;600;800&display=swap" rel="stylesheet">
+<style>
+  .lato{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+  }
+</style>
 </head>
-
-
-<body>
+<body class="lato">
 <!-- ==================================================================
            1... navbar section design starts
 ======================================================================= -->
@@ -60,12 +68,12 @@
            2... banner section design starts
 ======================================================================= -->
     <section class="mt-14 relative flex flex-col items-center max-w-screen-xl mx-auto">
-      <div class="carousel w-ful rounded-lg mx-4 ">
-          <div id="slide1" class="carousel-item relative w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+      <div class="carousel w-ful rounded-lg mx-4  ">
+          <div id="slide1" class="carousel-item relative w-full bg-opacity-60 bg-black ">
             <img src="images/banner1.png" class="w-full " />
-            <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2 ">
               <a href="#slide4" class="btn btn-circle">❮</a> 
-                  <div class="text-center text-white">
+                  <div class="text-center text-white ">
                       <h1 class="text-lg md:text-6xl lg:7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                       <p class="text-sm md:text-xl font-medium mt-1 md:mt-6">We supply highly quality organic products</p>
                       <button class="rounded-md bg-[#f85559] text-white outline-none border-none py-1 md:pt-5 md:pb-5  md:pl-7 md:pr-7 px-2  mt-3 md:mt-5 font-semibold text-sm  md:font-medium">Shop Now</button>
@@ -74,7 +82,7 @@
             </div>
           </div> 
           <div id="slide2" class="carousel-item relative w-full">
-            <img src="images/banner2.png" class="w-full" />
+            <img src="images/banner2.png" class="w-full " />
             <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide1" class="btn btn-circle">❮</a>
               <div class="text-center text-white">
@@ -145,7 +153,7 @@
             3...deal of the day section design starts
 ======================================================================= -->
         <!-- Deal of the day content -->
-        <div class="mt-40 flex flex-col justify-center items-center  lg:flex-row lg:justify-between mb-8 px-4 lg:px-0 ">
+        <div class="mt-36 flex flex-col justify-center items-center  lg:flex-row lg:justify-between mb-8 px-4 lg:px-0 ">
 
             <div>
                 <h1 class="text-5xl font-extrabold text-center lg:text-left">Deal of the day</h1>
@@ -154,12 +162,12 @@
 
             <div class="flex gap-4  items-start  mt-5 md:mt-0 ">
                 <div class="flex flex-col items-center">
-                    <h1 class="text-5xl font-extrabold">23</h1>
+                    <h1 class="text-5xl font-extrabold">29</h1>
                     <p class="text-sm font-medium text-[#12121299]">Days</p>
                 </div>
                 <i class="fa-solid fa-ellipsis-vertical mt-4"></i>
                 <div class="flex flex-col items-center">
-                    <h1 class="text-5xl font-extrabold">23</h1>
+                    <h1 class="text-5xl font-extrabold">15</h1>
                     <p class="text-sm font-medium text-[#12121299]">Hours</p>
                 </div>
                 <i class="fa-solid fa-ellipsis-vertical mt-4"></i>
@@ -169,7 +177,7 @@
                 </div>
                 <i class="fa-solid fa-ellipsis-vertical mt-4"></i>
                 <div class="flex flex-col items-center">
-                    <h1 class="text-5xl font-extrabold">23</h1>
+                    <h1 class="text-5xl font-extrabold">08</h1>
                     <p class="text-sm font-medium text-[#12121299]">Seconds</p>
                 </div>
             </div>
@@ -391,8 +399,8 @@
             </div>
             <div class="mt-4 flex gap-x-3 ">
               <i class="fa-brands fa-facebook "></i>
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
             </div>
           </div>
           <!-- team 2 -->
@@ -404,10 +412,10 @@
               <h2 class="text-2xl">Safia Chowdhury</h2>
               <p class="mt-4 text-base">Fruits Expert</p>
             </div>
-            <div class="mt-4 flex gap-x-3">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-facebook"></i>
+            <div class="mt-4 flex gap-x-3 ">
+              <i class="fa-brands fa-facebook "></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
             </div>
           </div>
           <!-- team 3 -->
@@ -419,10 +427,10 @@
               <h2 class="text-2xl">Rokib Hossain</h2>
               <p class="mt-4 text-base">Fruits Expert</p>
             </div>
-            <div class="mt-4 flex gap-x-3">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-facebook"></i>
+            <div class="mt-4 flex gap-x-3 ">
+              <i class="fa-brands fa-facebook "></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
             </div>
           </div>
           <!-- team 4 -->
@@ -434,15 +442,14 @@
               <h2 class="text-2xl">Chaity</h2>
               <p class="mt-4 text-base">Fruits Expert</p>
             </div>
-            <div class="mt-4 flex gap-x-3">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-facebook"></i>
+            <div class="mt-4 flex gap-x-3 ">
+              <i class="fa-brands fa-facebook "></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
             </div>
           </div>
         </div>
       </section>
-
 <!-- ==================================================================
             Meet the team section design ends
 ======================================================================= -->
@@ -522,7 +529,6 @@
           </div>
         </div>
       </section>
-
 <!-- ==================================================================
              Why Choose Us section design ends
 ======================================================================= -->
